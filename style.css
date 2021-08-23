@@ -1,0 +1,29 @@
+:root {
+    --background-dark: rgb(151, 241, 48);
+    --black: #000;
+  }
+  body{
+    background-color: var(--background-dark);
+  }
+  h1{
+    text-align :center
+  }
+  .container{
+    width:50%;
+  margin:auto;
+  }
+  input,
+  label{
+  display: block;
+  }
+  input{
+    margin-bottom: 1rem;
+    width:100%;
+  }
+  #output-box{
+  display: block;
+  margin-top:1rem;
+  margin:auto;
+  background: transparent;
+  }
+  
